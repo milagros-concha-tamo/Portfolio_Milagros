@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+body.dark .btn {
+  @apply bg-gray-700;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
