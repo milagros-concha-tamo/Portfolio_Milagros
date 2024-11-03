@@ -143,7 +143,7 @@ export default function About() {
                   <SocialLink href="https://www.linkedin.com/in/milagros-concha-tamo-682220133/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin /> LinkedIn
                   </SocialLink>
-                  <SocialLink href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+                  <SocialLink href="https://github.com/milagros-concha-tamo/Portfolio_Milagros" target="_blank" rel="noopener noreferrer">
                     <FaGithub /> GitHub
                   </SocialLink>
                 </SocialLinks>
