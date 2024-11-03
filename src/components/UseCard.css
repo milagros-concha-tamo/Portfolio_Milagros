@@ -1,0 +1,22 @@
+.use-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    max-width: 700px;
+    min-width: 600px;
+    padding: 10px;
+    border: 0.5px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .use-card h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .use-card p {
+    margin: 0;
+    color: #555;
+  }

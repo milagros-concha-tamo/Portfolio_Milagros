@@ -1,0 +1,34 @@
+.uses-section {
+    padding: 32px;
+  }
+  
+  .uses-section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  
+  .uses-section__group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the start */
+    gap: 32px; /* Space between heading and content */
+    padding-left: 0px; /* Space from the left */
+    border-left: 2px solid #e0e0e0; /* Optional border */
+  }
+  
+  .uses-section__group h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Font size for heading */
+    font-weight: bold; /* Bold font weight */
+    min-width: 128px; /* Minimum width to keep alignment */
+    color: #333; /* Color for the text */
+    flex: none; /* Prevent the heading from growing */
+    margin-right: 16px; /* Space between heading and items */
+  }
+  
+  .uses-section__group-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 32px; /* Space between items */
+  }

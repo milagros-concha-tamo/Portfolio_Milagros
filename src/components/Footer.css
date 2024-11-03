@@ -1,0 +1,39 @@
+/* components/Footer.css */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 12px 20px; /* Reduce padding to make the footer thinner */
+    border-top: 1px solid #e9ecef;
+    position: absolute; /* Changed to absolute to stay at the back */
+    bottom: 0; /* Position at the bottom */
+    width: 100%; /* Full width */
+    z-index: 1; /* Ensures the footer is below other elements if necessary */
+  }
+  
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+    list-style: none;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .footer ul a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer ul a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    color: #555;
+    font-size: 14px;
+    margin: 0;
+  }
